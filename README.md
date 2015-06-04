@@ -8,7 +8,8 @@ To run the code, you need YALMIP (http://users.isy.liu.se/johanl/yalmip) and it 
 to also install the MOSEK convex optimizer, free for academic use.
 The code also depends on a number of mex-files, some of which depend on the header library Eigen.
 Binaries for Win64 are provided, on Linux you will need to compile them with
-mex *.c* -I"/path/to/eigen/"
+
+    mex *.c* -I"/path/to/eigen/"
 
 To solve the example problems, run the file run_demo.m, or just the individual code cells within.
 
